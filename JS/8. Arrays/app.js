@@ -15,7 +15,7 @@ console.log('Sum of numbers =', numbers.reduce((acc, val) => acc + val, 0));
 const person = [
     "Ion",
     "Creangă",
-    "Petru",
+    "Stefan",
     1837,
     1889,
     "Romanian writer",
