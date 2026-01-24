@@ -1,7 +1,7 @@
-# 📅 Proiect Individual: Event Planner App
+# 📚 Proiect Individual: Book Library App
 
 ## 🎯 Scopul Proiectului
-Scopul acestui proiect este dezvoltarea unei aplicații web de tip **Single Page Application (SPA)** care permite utilizatorului să creeze, să gestioneze și să urmărească evenimente personale sau profesionale. Aplicația trebuie să ajute utilizatorul să adauge detalii despre evenimente, să stabilească date și ore, să invite participanți și să monitorizeze statusul fiecărui eveniment.
+Scopul acestui proiect este dezvoltarea unei aplicații web de tip **Single Page Application (SPA)** care permite utilizatorului să își gestioneze colecția de cărți. Aplicația trebuie să ajute utilizatorul să adauge, să vizualizeze, să editeze și să filtreze cărțile după diferite criterii, oferind o experiență clară de organizare a bibliotecii personale.
 
 Aplicația trebuie realizată folosind **JavaScript** și un framework modern de frontend, iar datele pot fi salvate local sau pe server, în funcție de soluția aleasă de student.
 
@@ -23,39 +23,38 @@ Studentul poate alege un singur framework frontend dintre următoarele:
 
 ## 👤 Cerințe Funcționale (User Stories)
 
-### 1️⃣ Managementul Evenimentelor
+### 1️⃣ Managementul Cărților
 Utilizatorul trebuie să poată:
 
-- adăuga un eveniment nou cu:
-  - **nume eveniment**
-  - **descriere**
-  - **data și ora**
-  - **locație**
-  - **categorie** (ex: Personal, Profesional, Social)
-  - **listă participanți** (opțional)
-- vizualiza lista completă de evenimente
-- șterge un eveniment
-- edita un eveniment existent
-- vedea fiecare eveniment afișat sub formă de **card sau listă**
+- adăuga o carte nouă cu:
+  - **titlu**
+  - **autor**
+  - **an publicare**
+  - **categorie** (ex: Ficțiune, Non-ficțiune, Biografie, Știință)
+  - **status** (citită / de citit)
+- vizualiza lista completă de cărți
+- șterge o carte
+- edita o carte existentă
+- vedea fiecare carte afișată sub formă de **card sau listă**
 
-📌 Fiecare eveniment trebuie să aibă un identificator unic.
+📌 Fiecare carte trebuie să aibă un identificator unic.
 
 ---
 
 ### 2️⃣ Navigare și Structură SPA
 - aplicația trebuie să conțină cel puțin **două pagini**:
-  - pagina principală – listă cu toate evenimentele
-  - pagina de detaliu – informații complete despre un eveniment
+  - pagina principală – listă cu toate cărțile
+  - pagina de detaliu – informații complete despre o carte
 - navigarea între pagini trebuie realizată folosind **routing-ul framework-ului ales**  
-  - exemplu: `/event/123`
+  - exemplu: `/book/123`
 
 ---
 
-### 3️⃣ Organizare și Monitorizare
-- filtrare după categorie sau dată
-- sortare după dată, ora sau nume
-- evidențiere vizuală a evenimentelor viitoare sau trecute
-- opțional: alertă vizuală sau notificare pentru evenimente apropiate
+### 3️⃣ Filtrare și Organizare
+- filtrare după categorie sau status (citită / de citit)
+- căutare rapidă după titlu sau autor
+- sortare după titlu, autor sau an publicare
+- evidențiere vizuală a cărților citite
 
 ---
 
@@ -69,4 +68,10 @@ Aplicația trebuie să asigure persistența datelor:
 
 ---
 
-### 5️⃣ Experiența Utilizatorul
+### 5️⃣ Experiența Utilizatorului (UX)
+- la încărcarea aplicației: afișează un **loader simplu**
+- interfața trebuie să fie:
+  - clară și intuitivă
+  - ușor de utilizat
+  - fără erori în consolă
+- evidențiere vizuală a cărților recente sau favorite
